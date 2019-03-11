@@ -1,0 +1,30 @@
+#google {
+    padding-top:109px;
+    padding-bottom:30px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#search-box {
+    width:600px;
+    height:40px;
+    border:1px solid #dfe1e5;
+    border-radius:40px;
+    outline:none;
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    background:url(../images/googlemic.png) no-repeat right 20px center;
+    background-size:24px;
+    font:16px arial,sans-serif;
+    margin:0 auto;
+    padding:3px 20px;
+}
+
+input[type=text]:focus,textarea:focus,input[type=text]:hover {
+    box-shadow:0 2px 5px #dfe1e5;
+    border:1px solid #dfe1e5;
+    margin:5px 1px 3px 0;
+    padding:3px 0 3px 3px;
+}
